@@ -1,0 +1,37 @@
+# Jawaban Soal GitHub
+
+Nama  : Muammar Khadafi Al-Ghazali
+Kelas : XII PPLG III
+
+## 1. Apa yang dimaksud dengan GitHub?
+GitHub itu platform berbasis web buat nyimpen, ngelola, dan berbagi kode program
+pakai Git sebagai version control. Dengan GitHub, banyak orang bisa kerja bareng
+di satu proyek yang sama tanpa takut kodenya saling tabrakan.
+
+## 2. Apa fitur dan komponen utama GitHub?
+- **Repository**: tempat nyimpen semua file dan riwayat proyek
+- **Branch**: cabang kode buat ngerjain fitur tanpa ganggu kode utama
+- **Commit**: catatan perubahan yang disimpan
+- **Fork**: nyalin repo orang lain ke akun sendiri
+- **Pull Request**: permintaan buat nggabungin perubahan ke branch utama
+- **Issues**: buat nyatet bug atau ide fitur
+- **GitHub Actions**: otomatisasi seperti testing dan deploy
+- **README, Wiki, Projects**: dokumentasi dan manajemen proyek
+
+## 3. Sebutkan alur utama (GitHub Workflow)
+1. Buat atau fork repository
+2. Clone ke komputer lokal
+3. Buat branch baru
+4. Kerjain perubahan (edit kode atau file)
+5. Commit perubahan dengan pesan yang jelas
+6. Push branch ke GitHub
+7. Buat Pull Request
+8. Review dan diskusi
+9. Merge ke branch main
+
+## 4. Apa keuntungan utama dari pembatasan branch main?
+- Branch main tetap stabil dan bersih karena kode yang belum dicek nggak bisa langsung masuk
+- Semua perubahan harus lewat pull request dan review dulu, jadi kualitas kode terjaga
+- Mencegah kode di main kehapus atau ketimpa secara nggak sengaja
+- Riwayat perubahan lebih rapi dan gampang dilacak
+- Kerja tim jadi lebih aman karena nggak ada yang bisa asal push ke main
